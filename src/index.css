@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family:"Outfit";
+}
+::-webkit-scrollbar{
+    overflow-y: hidden;
+}
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    width: 100vw;
+    margin-top: 20px;
+}
+.login1{
+    margin-top:-20px;
+}
+
+.login2{
+    margin-bottom: -20px;
+    cursor:pointer;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.app{
+    display: flex;
+}
+.sidebar{
+    width: 200px;
+    padding: 20px;
+}
+
+.content{
+    flex:1;
+    padding:20px;
+    background-color:#cfe2ff ;
+}
+.active {
+    font-weight: bold !important;
+    color: blue !important;
+}
+.doctorhover:hover{
+    background-color:#5f6fff !important ;
+}
+
+  /* Light Theme Styles */
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .light-theme .sidebar {
+    background-color: #f4f4f4;
+  }
+  
+  .light-theme .theme-toggle-btn {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Dark Theme Styles */
+  .dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-theme .sidebar {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-theme .theme-toggle-btn {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Theme Toggle Button */
+  .theme-toggle-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
